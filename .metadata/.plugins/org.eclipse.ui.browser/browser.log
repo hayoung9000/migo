@@ -1,0 +1,30 @@
+
+5월 08, 2018 21:07:09.41 NEW SESSION
+5월 08, 2018 21:07:09.41 [8144:11388:0508/210709.399:ERROR:configuration_policy_handler_list.cc(92)] Unknown policy: NTPContentSuggestionsEnabled
+5월 08, 2018 21:07:09.44 [8144:12652:0508/210709.446:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+5월 08, 2018 21:07:24.26 [6756:8852:0508/210724.266:ERROR:configuration_policy_handler_list.cc(92)] Unknown policy: NTPContentSuggestionsEnabled
+5월 08, 2018 21:07:24.29 [6756:9244:0508/210724.297:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+5월 08, 2018 21:12:22.28 Unable to read VR Path Registry from C:\Users\Mirim\AppData\Local\openvr\openvrpaths.vrpath
+5월 08, 2018 21:12:22.28 [6756:7820:0508/211222.285:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:13:26.78 [6756:7820:0508/211326.785:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:18:35.68 [6756:7820:0508/211835.685:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:19:09.08 [6756:7820:0508/211909.079:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:20:23.06 [6756:7820:0508/212023.060:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:20:43.23 [6756:7820:0508/212043.236:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:24:20.71 [6756:7820:0508/212420.711:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:25:53.66 [6756:7820:0508/212553.664:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:26:17.25 [7016:5700:0508/212617.253:ERROR:configuration_policy_handler_list.cc(92)] Unknown policy: NTPContentSuggestionsEnabled
+5월 08, 2018 21:26:17.28 [7016:7380:0508/212617.284:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+5월 08, 2018 21:26:59.52 [7016:12472:0508/212659.526:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:28:51.04 Unable to read VR Path Registry from C:\Users\Mirim\AppData\Local\openvr\openvrpaths.vrpath
+5월 08, 2018 21:28:51.04 [7016:12472:0508/212851.046:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:29:10.26 [7016:12472:0508/212910.269:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:29:44.16 [7016:12472:0508/212944.168:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:30:03.85 [7016:12472:0508/213003.853:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:30:29.20 [7016:12472:0508/213029.201:ERROR:audio_manager_base.cc(368)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+5월 08, 2018 21:35:44.07 [14980:13244:0508/213544.070:ERROR:configuration_policy_handler_list.cc(92)] Unknown policy: NTPContentSuggestionsEnabled
+5월 08, 2018 21:35:44.10 [14980:13720:0508/213544.101:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+5월 08, 2018 21:44:25.30 Unable to read VR Path Registry from C:\Users\Mirim\AppData\Local\openvr\openvrpaths.vrpath
+5월 08, 2018 21:44:59.41 [6452:4124:0508/214459.413:ERROR:configuration_policy_handler_list.cc(92)] Unknown policy: NTPContentSuggestionsEnabled
+5월 08, 2018 21:44:59.44 [6452:10524:0508/214459.444:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+5월 08, 2018 21:46:12.02 Unable to read VR Path Registry from C:\Users\Mirim\AppData\Local\openvr\openvrpaths.vrpath
