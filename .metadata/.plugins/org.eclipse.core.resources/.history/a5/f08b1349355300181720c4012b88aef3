@@ -1,0 +1,9 @@
+<%@page import="java.util.StringTokenizer"%>
+<%@page import="java.io.FileReader"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.io.BufferedReader"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<jsp:forward page="main.jsp">
+	<jsp:param name="CONTENTPAGE" value="loginOKProc.jsp" />
+</jsp:forward>

@@ -1,0 +1,78 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+<style>
+.box{
+	display:inline-block;
+	background-color:white;
+	width:340px;
+	margin:5px;
+}
+img{
+	width:340px;
+	height:300px;
+	display:block;
+	margin-bottom: 10px;
+}
+ul{
+	 list-style: none;
+}
+a{
+	text-decoration: none;
+}
+span{
+	display: block;
+}
+#name{
+	font-size: 17px;
+    line-height: 19px;
+    font-weight: 900;
+    color: #404040;
+    margin-bottom: 3px;
+}
+#explain{
+    font-size: 13px;
+    line-height: 13px;
+    color: #757575;
+}
+#time{
+	margin-top:5px;
+	line-height: 19px;
+    font-weight: 900;
+    color:#ff9933;
+}
+</style>
+</head>
+<body>
+<ul>
+	<li class="box">
+		<a href="amasvin.jsp">
+		<img src="image/amasvin_f2.gif">
+		<span id="name">아마스빈</span>
+		<span id="explain">덕봉식당</span>
+		<span id="time">7분</span>
+		</a>
+	</li>
+	<li class="box">
+		<a href="waffle.jsp">
+		<img src="image/waffle_f.jpg">
+		<span id="name">바바플</span>
+		<span id="explain">지지고</span>
+		<span id="time">11분</span>
+		</a>
+	</li>
+	<li class="box">
+		<a href="bananau.jsp">
+		<img src="image/bananau_f.jpg">
+		<span id="name">바나나유</span>
+		<span id="explain">덕봉식당</span>
+		<span id="time">9분</span>
+		</a>	
+	
+</ul>
+</body>
+</html>

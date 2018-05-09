@@ -1,0 +1,72 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+<style>
+img{
+	width:340px;
+	height:300px;
+	display:block;
+	padding-bottom: 10px;
+}
+ul{
+	 list-style: none;
+}
+span{
+	display: block;;
+}
+#name{
+	font-size: 17px;
+    line-height: 19px;
+    font-weight: 900;
+    color: #404040;
+}
+#explain{
+	    margin-bottom: 17px;
+    font-size: 13px;
+    line-height: 13px;
+    color: #757575;
+}
+a{
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+<ul>
+	<li>
+		<div id="gggo">
+		<a href="gggo.jsp">
+		<img src="image/gigigo_f.jpg">
+		<span id="name">지지고</span>
+		<span id="explain">지지고</span>
+		<span id="time"></span>
+		</a>
+		</div>	
+	</li>
+	<li>
+		<div id="alchon">
+		<a href="alchon.jsp">
+		<img src="image/alchon_f.jpg">
+		<span id="name">알촌</span>
+		<span id="expain">덕봉식당</span>
+		<span id="time"></span>
+		</a>
+		</div>	
+	</li>
+	<li>
+		<div id="duckbong">
+		<a href="duckbong.jsp">
+		<img src="image/duckbong_f.jpg">
+		<span id="name">덕봉식당</span>
+		<span id="expain">덕봉식당</span>
+		<span id="time"></span>
+		</a>
+		</div>	
+	</li>
+</ul>
+</body>
+</html>

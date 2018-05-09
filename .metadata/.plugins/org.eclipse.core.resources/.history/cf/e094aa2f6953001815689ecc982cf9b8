@@ -1,0 +1,7 @@
+window.onclick = init;
+
+function init(){
+	document.getElementById("myform").onsubmit = process;	
+}
+function process(){
+	var start=new Date(document.getElementById("start").value);

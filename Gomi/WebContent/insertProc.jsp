@@ -1,5 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@page import="java.util.StringTokenizer"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.io.FileReader"%>
+<%@page import="java.io.BufferedReader"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,10 +11,42 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="InsetOk.jsp" method="post">
-ì´ë¦„ : <input type="text" name="name"><br>
-id :<input type="text" name="id"><br>
-ë¹„ë°€ë²ˆí˜¸ : <input type="password" name="pw"><br>
-</form>
+<%request.setCharacterEncoding("UTF-8");%>
+<%
+	String id=request.getParameter("id");
+	String pw=request.getParameter("pw");
+	String name=request.getParameter("name");	
+%>
+<%
+	BufferedReader reader = null;
+	ArrayList<String> list = new ArrayList<String>();
+	String str=null;
+	String getLine="";
+	try{
+		String filePath=application.getRealPath("/WEB-INF/member.txt");
+		reader = new BufferedReader(new FileReader(filePath));
+		//out.println(filePath);
+		while ((str = reader.readLine()) != null) {
+			   getLine = getLine + str;
+		}
+		reader.close();
+		StringTokenizer st = new StringTokenizer(getLine, " ");
+	  	while (st.hasMoreTokens()) {
+	   		list.add(st.nextToken());
+	   		// Â©¶óÁØ Á¶°¢µéÀ» ¹è¿­¿¡ ÀúÀå
+	  	}
+	 	for(int i=0;i<list.size()-1;i+=2){
+		 	if(id.equals(list.get(i))){%>
+		 	<jsp:forward page="Insert.jsp"/>
+		 <%}else{
+			 //¸Ş¸ğÀå¿¡ ¸â¹ö Ãß°¡(ÆÄÀÏÀÔÃâ·Â)
+			 %><jsp:forward page="InsertOk.jsp" />
+		 <%}
+	 	}
+	}catch(Exception e){
+		 out.println("ÁöÁ¤µÈ ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù");
+	 }
+		 	
+%>
 </body>
 </html>

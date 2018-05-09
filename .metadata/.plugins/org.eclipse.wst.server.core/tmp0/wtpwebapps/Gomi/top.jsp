@@ -4,11 +4,12 @@
 <html>
 <head>
 <style>
-body{
-	background-color: white;
-}
-h3{
+h1 a{
+	text-decoration: none;
 	color:#ff5050;
+}
+h1{
+	padding-bottom:15px;
 }
 ul{
 list-style:none;
@@ -21,6 +22,8 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    font-size: 18px;
 }
 nav ul li a:hover{
    color: #ff5050;
@@ -30,7 +33,7 @@ nav ul li a:hover{
 </head>
 <body>
 <center>
-<h3>MIGO</h3>
+<h1><a href="Index.jsp">MIGO</a></h1>
 <nav>
 <ul>
         <li><a href="dinner.jsp">석식</a></li>

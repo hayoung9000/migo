@@ -1,0 +1,13 @@
+window.onclick = init;
+
+function init(){
+	document.getElementById("myform").onsubmit = process;	
+}
+function process(){
+	var id=document.getElementById("id").value;
+	var pw=document.getElementById("pw").value;
+	
+	if(id == ""&&pw==""){
+		alert("값을 입력해주세요")
+	}
+}

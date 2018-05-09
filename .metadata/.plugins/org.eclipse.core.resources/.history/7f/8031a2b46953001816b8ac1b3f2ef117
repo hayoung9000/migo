@@ -1,0 +1,8 @@
+window.onclick = init;
+
+function init(){
+	document.getElementById("myform").onsubmit = process;	
+}
+function process(){
+	var id=document.getElementById("id"));
+}

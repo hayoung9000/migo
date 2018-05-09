@@ -7,7 +7,7 @@
 <title>Login</title>
 </head>
 <body>
-<form action="LoginProc.jsp" method="post">
+<form action="LoginProc.jsp" method="post" id="myform">
 <center>
 <table>
 	<tr>

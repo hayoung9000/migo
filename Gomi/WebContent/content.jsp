@@ -5,9 +5,34 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<style>
+	.slide{
+		margin-left:200px;
+	}
+</style>
 </head>
 <body>
-[방문을 환영합니다] <br>
-<font color="red" size=4>트와이스 모모 사랑해요</font>
+<div class="slide">
+  <img class="mySlides" src="image/hong_f.jpg" style="width:650px;">
+  <img class="mySlides" src="image/hong_f2.jpg" style="width:650px;">
+  <img class="mySlides" src="image/sam_f2.jpg" style="width:650px;">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 </body>
 </html>
