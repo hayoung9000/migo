@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="InsertProc.jsp" method="post" id="myform">
+<form action="InsertOk.jsp" method="post" id="myform">
 이름 : <input type="text" name="name" id="name"><br>
 id :<input type="text" name="id" id="id"><br>
 비밀번호 : <input type="password" name="pw" id="pw"><br>

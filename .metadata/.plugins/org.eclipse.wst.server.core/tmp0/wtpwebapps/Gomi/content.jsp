@@ -7,7 +7,14 @@
 <title>Insert title here</title>
 <style>
 	.slide{
-		margin-left:200px;
+		margin-left:300px;
+		margin-bottom:30px;
+	}
+	#intro{
+		margin-left:370px;
+		color: coral;
+    	font-weight: bold;
+   		font-size: 18px;
 	}
 </style>
 </head>
@@ -34,5 +41,6 @@ function carousel() {
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
+<span id="intro">"안녕하세요. 미림인을 위한 고시촌 알림 웹페이지입니다"</span>
 </body>
 </html>

@@ -3,9 +3,25 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
+	<style>
+    .footer{
+    position:fixed;
+    	clear: both;
+		bottom:0;
+    	width: 100%;
+    	height: 50px;
+		background-color:#292929;
+		color: #666666;
+    	vertical-align:middle;
+    	text-align: center;
+    	padding-top:30px;
+    }
+	</style>
 	</head>
 	<body>
-	 찾아오시는 길 | 개인보호 정책 | 도움말 | 약관
+	<div class="footer">
+	문의 | hayoung9000@e-mirim.hs.kr
+	 </div>
 	</body>
 </html>
 

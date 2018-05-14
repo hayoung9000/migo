@@ -26,6 +26,7 @@ a{
 }
 span{
 	display: block;
+	padding-left:7px;
 }
 #name{
 	font-size: 17px;
@@ -50,32 +51,36 @@ span{
 <body>
 <ul>
 	<li class="box">
-		<a href="gggo.jsp">
-		<img src="image/gigigo_f.jpg">
-		<span id="name">지지고</span>
-		<span id="explain">지지고</span>
-		<span id="time">10분</span>
+		<a href="mom.jsp">
+		<img src="image/mom_f.jpg">
+		<span id="name">큰엄마네떡볶이아울렛</span>
+		<span id="explain">넓은 인원 회식 가능한 떡볶이집</span>
+		<span id="time">2분</span>
+		</a>	
+	</li>
+	<li class="box">
+		<a href="mirim.jsp">
+		<img src="image/mirim_f.JPG">
+		<span id="name">미림분식</span>
+		<span id="explain">이름부터 미림인 즉석떡볶이집</span>
+		<span id="time">2분</span>
 		</a>
 	</li>
 	<li class="box">
-		<div id="alchon">
-		<a href="alchon.jsp">
-		<img src="image/alchon_f.jpg">
-		<span id="name">알촌</span>
-		<span id="explain">덕봉식당</span>
+		<a href="pork.jsp">
+		<img src="image/pork_f.jpg">
+		<span id="name">이쁜돼지고기</span>
+		<span id="explain">삼겹살과 목살 무한리필</span>
+		<span id="time">14분</span>
+		</a>
+	</li>
+		<li class="box">
+		<a href="chiken.jsp">
+		<img src="image/chiken_f.jpg">
+		<span id="name">맛닭꼬</span>
+		<span id="explain">오븐에 구운 담백한 치킨</span>
 		<span id="time">11분</span>
 		</a>
-		</div>	
-	</li>
-	<li class="box">
-		<div id="duckbong">
-		<a href="duckbong.jsp">
-		<img src="image/duckbong_f.jpg">
-		<span id="name">덕봉식당</span>
-		<span id="explain">덕봉식당</span>
-		<span id="time">9분</span>
-		</a>
-		</div>	
 	</li>
 </ul>
 </body>

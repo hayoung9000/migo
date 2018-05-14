@@ -10,8 +10,12 @@
 		padding:0px;
 		margin:0px;
 	}
+	html{
+		height: 100%;
+	}
 	body{
 		background-color:#f2f2f2;
+		height: 100%;
 	}
 	#top{
 		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
@@ -28,25 +32,16 @@
    	 	margin-left:100px;
     	padding-top: 15px;
     	padding-left: 10px;
-    	margin-right: 35px;
+    	margin-right: 50px;
 	}
 	#main{
 	 float: left;
-     width: 60%;
+     width: 80%;
+     margin-bottom:100px;
     }
-    #footer{
-     	position:absolute;
-    	bottom:0;
-    	clear: both;
-    	width: 100%;
-    	height: 50px;
-		background-color:#292929;
-		color: #666666;
-    	vertical-align:middle;
-    	text-align: center;
-    	margin-top: 20px;
-    	padding-top:30px;
-    }
+	#footer{
+		margin-top:600px;
+	}
 </style>
 </head>
 <body>

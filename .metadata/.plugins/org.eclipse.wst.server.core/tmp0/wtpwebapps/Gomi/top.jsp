@@ -4,13 +4,6 @@
 <html>
 <head>
 <style>
-h1 a{
-	text-decoration: none;
-	color:#ff5050;
-}
-h1{
-	padding-bottom:15px;
-}
 ul{
 list-style:none;
 }
@@ -33,13 +26,14 @@ nav ul li a:hover{
 </head>
 <body>
 <center>
-<h1><a href="Index.jsp">MIGO</a></h1>
+<a href="Index.jsp"><img src="image/logo.png" style="width:190px;height:80px;"></a>
 <nav>
 <ul>
+		<li><a href="gosichon.jsp">전체목록</a></li>
         <li><a href="dinner.jsp">석식</a></li>
         <li><a href="snack.jsp">간식</a></li>
         <li><a href="slow.jsp">여유로운 식사</a></li>
-        <li><a href="group.jsp">회식</a></li>
+        <li><a href="group.jsp">회식</a></li>       
 </ul>
 </nav>
 </center>

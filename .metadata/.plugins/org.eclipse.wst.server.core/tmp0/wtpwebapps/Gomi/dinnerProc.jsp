@@ -26,6 +26,7 @@ a{
 }
 span{
 	display: block;
+	padding-left:7px;
 }
 #name{
 	font-size: 17px;
@@ -53,30 +54,43 @@ span{
 		<a href="gggo.jsp">
 		<img src="image/gigigo_f.jpg">
 		<span id="name">지지고</span>
-		<span id="explain">지지고</span>
+		<span id="explain">일본식 볶음 컵요리</span>
 		<span id="time">10분</span>
 		</a>
 	</li>
 	<li class="box">
-		<div id="alchon">
 		<a href="alchon.jsp">
 		<img src="image/alchon_f.jpg">
 		<span id="name">알촌</span>
-		<span id="explain">덕봉식당</span>
+		<span id="explain">맛과 가격 모두 잡은 알밥</span>
 		<span id="time">11분</span>
 		</a>
-		</div>	
 	</li>
 	<li class="box">
-		<div id="duckbong">
 		<a href="duckbong.jsp">
 		<img src="image/duckbong_f.jpg">
 		<span id="name">덕봉식당</span>
-		<span id="explain">덕봉식당</span>
+		<span id="explain">주문 즉시 조리하는 뜨끈한 집밥 음식</span>
 		<span id="time">9분</span>
 		</a>
-		</div>	
 	</li>
+	<li class="box">
+		<a href="sin.jsp">
+		<img src="image/sin_f.jpg">
+		<span id="name">신전떡볶이</span>
+		<span id="explain">매콤한 국물 떡볶이</span>
+		<span id="time">14분</span>
+		</a>
+	</li>
+	<li class="box">
+		<a href="kim.jsp">
+		<img src="image/kim_f.jpg">
+		<span id="name">김밥천국</span>
+		<span id="explain">번외) 저녁으로 최고인 만능 식당</span>
+		<span id="time">2분</span>
+		</a>
+	</li>
+	
 </ul>
 </body>
 </html>

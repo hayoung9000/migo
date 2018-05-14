@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+회원이 되신 것을 축하드립니다~
 </body>
 </html>
